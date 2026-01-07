@@ -14,6 +14,6 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-CMD [ "node", "start" ]
+CMD [ "node", "server.js" ]
 
 # This is dummy change for git demo
